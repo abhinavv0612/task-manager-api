@@ -17,6 +17,10 @@ Create a .env file from .env.example and fill in values:
 * DB_PASS=<your_mysql_password>
 * DB_NAME=taskdb
 
+Create database in MySQL:
+
+* CREATE DATABASE taskdb;
+
 Start server:
 npm run start:dev
 
@@ -30,7 +34,7 @@ Login to receive JWT token:
 
 Use token in headers for all APIs:
 
-Authorization: Bearer <token>
+Authorization: Bearer <<token>token>
 
 API Endpoints
 
