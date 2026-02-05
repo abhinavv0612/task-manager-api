@@ -42,12 +42,12 @@ API Endpoints
 
 Method	Endpoint	Description
 
-POST	/auth/login	Get JWT token
-POST	/team	Create team with members
-POST	/tasks	Create task
-PATCH	/tasks/:taskId/assign/:memberId	Assign task
-PATCH	/tasks/:id/status	Update task status
-GET	/tasks	Get tasks with assignee
+1. POST	/auth/login	Get JWT token
+2. POST	/team	Create team with members
+3. POST	/tasks	Create task
+4. PATCH	/tasks/:taskId/assign/:memberId	Assign task
+5. PATCH	/tasks/:id/status	Update task status
+6. GET	/tasks	Get tasks with assignee
 
 Demo
 
